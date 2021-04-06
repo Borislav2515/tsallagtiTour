@@ -277,7 +277,7 @@ button, input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
 .form-price__wrap span {
@@ -483,6 +483,23 @@ a.unit:active {
 .lable__input-date {
     position: relative;
 }
+
+.tour__price-value {
+    cursor: inherit;
+    text-align: center;
+    font-size: 22px;
+    color: #AE1100;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.tour__price-value:focus {
+    box-shadow: none;
+}
+
+
+
 
 
 
