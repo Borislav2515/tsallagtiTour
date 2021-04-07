@@ -5,6 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Туры в Осетии! Лучшее только с нами!">
+    <meta name="keywords"
+          content="Туры в Осетию, отдых в Осетии, мертвый город, даргавс, тур Осетия, Кавказ тур, тур в горах, отдых в горах">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="preload" as="style" href="css/fonts.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -106,7 +109,8 @@
             <div class="container">
                 <nav class="header__nav">
                     <ul class="header__list">
-                        <li class="header__item"><a href="index.html" class="heder__link heder__link-active">Главная</a></li>
+                        <li class="header__item"><a href="index.html" class="heder__link heder__link-active">Главная</a>
+                        </li>
                         <li class="header__item"><a href="tours.html" class="heder__link">Этно-Тур</a></li>
                         <li class="header__item"><a href="active.html" class="heder__link">Актив-Тур</a></li>
                         <li class="header__item"><a href="#" class="heder__link">Тур номер 3</a></li>
@@ -209,35 +213,60 @@
             </ul>
         </div>
     </section>
-<!--    <section class="contacts" id="contacts">-->
-<!--        <div class="contacts__container container">-->
-<!--            <div class="container__left">-->
-<!--                <h2 class="contacts__title title">-->
-<!--                    Контакты-->
-<!--                </h2>-->
-<!--                <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="contacts-form">-->
-<!--                    <div class="contacts-form__block">-->
-<!--                        <input type="text" class="contacts-form__name">-->
-<!--                        <input type="text" class="contacts-form__last-name">-->
-<!--                    </div>-->
-<!--                    <div class="contacts-form__block">-->
-<!--                        <input type="email" class="contacts-form__email">-->
-<!--                        <input type="number" class="contacts-form__last-number">-->
-<!--                    </div>-->
-<!--                    <div class="contacts-form__block">-->
-<!--                        <textarea name="contact-message" ></textarea>-->
-<!--                    </div>-->
-<!--                </form>-->
-<!--            </div>-->
-<!--            <div class="container__right">-->
+    <section class="contacts" id="contacts">
+        <div class="contacts__container">
+            <div class="contacts__left">
+                <div class="contacts__left-wrap">
+                    <div class="contacts__left-content">
+                        <h2 class="contacts__title title">
+                            Контакты
+                        </h2>
+                        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="contacts-form">
+                            <div class="contacts-form__block">
+                                <label for="contacts-form__name" class="contscts__label">Ваше имя</label>
+                                <input type="text" name="name" class="contacts-form__name contacts__input"
+                                       id="contacts-form__name">
+                            </div>
+                            <div class="contacts-form__block">
+                                <label for="contacts-form__last-name" class="contscts__label">Ваша Фамилия</label>
+                                <input type="text" class="contacts-form__last-name contacts__input"
+                                       id="contacts-form__last-name">
+                            </div>
+                            <div class="contacts-form__block">
+                                <label for="contacts-form__email" class="contscts__label">Ваш E-mail</label>
+                                <input type="email" class="contacts-form__email contacts__input"
+                                       id="contacts-form__email">
+                            </div>
+                            <div class="contacts-form__block">
+                                <label for="contacts-form__number" class="contscts__label">Ваш Телефон</label>
+                                <input type="tel" class="contacts-form__number contacts__input"
+                                       id="contacts-form__number">
+                            </div>
+                            <div class="contacts-label__block ">
+                                <label for="contacts-message" class="contscts__label">Ваше Сообщение</label>
+                                <textarea name="contacts-message" class="contacts-message"
+                                          id="contacts-message"></textarea>
+                            </div>
+                            <div class="contscts-btn__block">
+                                <button class="contscts-btn btn btn__orange">Отправить</button>
+                                <button class="contacts-btn-transp btn">Послание</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts__right">
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1617828083755!6m8!1m7!1sCAoSLEFGMVFpcE9icUhJd0g3ZVdoQ0pzY19BYVU1b1FwenI2QjVjNEJ3aTl6VkdP!2m2!1d42.8691989!2d44.1520981!3f140!4f10!5f0.7820865974627469"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="phone-number">
+        <div class=".phone-number__container container">
 
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+        </div>
+    </section>
 </main>
-
-
-
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/menu-hidden.js"></script>
 <script src="js/script.js"></script>
