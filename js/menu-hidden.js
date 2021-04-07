@@ -1,12 +1,14 @@
 let checMenuMobile = document.getElementById('check-menu-mobile');
-let overflow = document.querySelector('.overflow');
+let overflowBlock = document.querySelector('.overflow');
 
 checMenuMobile.onclick = function () {
-    overflow.classList.toggle("display-block");
-    document.body.style.overflow = 'hidden';
+    overflowBlock.classList.toggle("display-block");
+    document.body.classList.toggle("body-overflow");
+
 };
 
-overflow.addEventListener('click', () => {
+overflowBlock.addEventListener('click', () => {
     checMenuMobile.checked = false;
-    overflow.classList.toggle("display-block");
+    overflowBlock.classList.toggle("display-block");
+    document.body.classList.toggle("body-overflow");
 });

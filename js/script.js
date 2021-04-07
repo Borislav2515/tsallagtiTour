@@ -1,7 +1,7 @@
 const mySwiper = new Swiper('.hero__slider', {
     loop: true,
     autoplay: {
-        delay: 5000,
+        delay: 6000,
     },
     cubeEffect: {
         slideShadows: false,
