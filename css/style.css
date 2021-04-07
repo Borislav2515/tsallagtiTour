@@ -72,9 +72,11 @@ li {
     height: 100%;
     width: 100%;
     background-color: rgba(52, 52, 52, 0.7);
-    z-index: 5;
+    z-index: 7;
 }
-
+.body-overflow {
+    overflow: hidden;
+}
 .display-block {
     display: block;
 }
