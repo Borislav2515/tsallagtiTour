@@ -58,26 +58,28 @@
     fill: #ff6300;
 }
 
-.tour-lvl__icon:after {
-    content: attr(data-title);
-    display: none;
-    position: absolute;
-    bottom: 130%;
-    left: 0px;
-    background-color: #fff;
-    color: #3aaeda;
-    padding: 5px;
-    text-align: center;
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .16);
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .16);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .16);
-    font-size: 12px;
-}
 
 /* Добавляем свойство, чтобы при наведении на элемент плашка с подсказкой появилась добавить  data-title="такую подсказку можно оформить"*/
-.tour-lvl__icon:hover:after {
-    display: block;
-}
+/*.tour-lvl__icon:hover:after {*/
+/*    display: block;*/
+/*}*/
+/*.tour-lvl__icon:after {*/
+/*    content: attr(data-title);*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    bottom: 130%;*/
+/*    left: 0px;*/
+/*    background-color: #fff;*/
+/*    color: #3aaeda;*/
+/*    padding: 5px;*/
+/*    text-align: center;*/
+/*    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .16);*/
+/*    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .16);*/
+/*    box-shadow: 0 1px 1px rgba(0, 0, 0, .16);*/
+/*    font-size: 12px;*/
+/*}*/
+
+
 
 .tour-lvl__svg {
     height: 40px;
@@ -172,7 +174,6 @@
     height: auto;
     margin: 0 20px 20px 0;
     padding: 30px;
-    background-image: url("../img/slide_1.jpeg");
     background-size: cover;
     border-radius: 12px;
     color: black;
@@ -505,107 +506,6 @@ a.unit:active {
 
 /*-------------*/
 
-
-@media (max-width: 479px) {
-    .container {
-        padding: 0 15px;
-    }
-
-    .tour {
-        padding-top: 30px;
-    }
-
-    .tour__container {
-        width: 100%;
-        padding: 0 10px;
-        margin: 0;
-    }
-
-    .tour__item {
-        display: block;
-    }
-
-    .tour__name {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .swiper-cube {
-        width: 100%;
-    }
-
-    .tour__item {
-        margin-bottom: 70px;
-    }
-
-    .tour__include__item {
-        width: calc((100% / 2) - (22px));
-    }
-
-    .tour__include__item:nth-child(2n) {
-        margin-right: 0;
-    }
-
-    .tour__include__item:nth-child(3n) {
-        margin-right: 20px;
-    }
-
-    .tour__include-item__descr {
-        color: white;
-    }
-
-    form {
-        width: 100%;
-    }
-}
-
-
-@media (min-width: 480px) and (max-width: 768px) {
-    .container {
-        padding: 0 15px;
-    }
-
-    .tour__name {
-        max-width: 100%;
-    }
-
-    .header__desctop {
-        display: none;
-    }
-
-    .navigation {
-        display: block;
-    }
-
-    .header__mobile {
-        position: relative;
-        display: flex;
-        align-items: center;
-        padding: 15px 10px;
-    }
-
-    .swiper-cube {
-        margin: 20px;
-    }
-
-}
-
-@media (max-width: 1350px) {
-    .tour__container {
-        width: 100%;
-        padding: 30px 10px;
-    }
-
-}
-
-@media (max-width: 1200px) {
-    .container {
-        padding: 0 15px;
-    }
-    .header-right__item {
-        margin-right: 10px;
-    }
-}
 
 
 
