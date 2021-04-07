@@ -586,6 +586,8 @@ li {
 
 
 
+
+
 @media screen and (max-width: 479px) {
     .container {
         padding: 0 15px;
@@ -758,6 +760,13 @@ li {
 
     .swiper-cube {
         margin: 20px;
+    }
+
+    .tour__item {
+        flex-direction: column;
+    }
+    .tour__item:nth-child(2n) {
+        flex-direction: column;
     }
 
 }
