@@ -105,7 +105,7 @@
                     <ul class="header__list">
                         <li class="header__item"><a href="index.html" class="heder__link">Главная</a></li>
                         <li class="header__item"><a href="tours.html" class="heder__link">Этно-Тур</a></li>
-                        <li class="header__item"><a href="active.html" class="heder__link">Актив-Тур</a></li>
+                        <li class="header__item"><a href="active.html" class="heder__link heder__link-active">Актив-Тур</a></li>
                         <li class="header__item"><a href="#" class="heder__link">Тур номер 3</a></li>
                     </ul>
                 </nav>
@@ -608,13 +608,13 @@
                 </div>
                 <label class="form-price__wrap">
                     <h4 class="form__title">Цена на человека:</h4>
-                    <input type="text" class="tour__price-value" value="2000" readonly>
+                    <input type="text" name="price" class="tour__price-value" value="2000" readonly>
                 </label>
                 <label>
-                    <input type="text" name="name" placeholder="Ваш имя" required>
+                    <input type="text" name="name" placeholder="Ваш имя" maxlength="50" required>
                 </label>
                 <label>
-                    <input type="email" name="mail" placeholder="Ваш e-mail" required>
+                    <input type="email" name="mail" placeholder="Ваш e-mail" maxlength="50" required>
                 </label>
                 <label>
                     <input type="tel" name="tel" class="input__tel" placeholder="Ваш телефон" required>
@@ -658,11 +658,21 @@
                 </div>
             </form>
         </div>
+        <section class="tour__panoram">
+            <div class="container">
+                <h2 class="tour__title">Панорама тура</h2>
+                <div class="panoram__container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1617533837011!6m8!1m7!1sCAoSLEFGMVFpcE85V0Y4Qzc4SWNzRFBQSjJPV3NuN0I4VW1fN0p6blFoSW5jYWhC!2m2!1d43.0451302!2d44.2870972!3f137.95917812633465!4f-5.670470974511076!5f0.7820865974627469"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
     </section>
 </main>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/menu-hidden.js"></script>
 <script src="js/form.js"></script>
 </body>
 </html>

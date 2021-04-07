@@ -81,7 +81,7 @@
                 <div class="header-right__item">
                     <div class="header-local header__article">
                         <div class="header-local__let">
-                            <a href="#tel" class="header-phone__link">
+                            <a href="tel:+79119762535" class="header-phone__link">
                         <span class="header__icon">
                                 <svg height="682pt" viewBox="-119 -21 682 682.66669" width="682pt"
                                      xmlns="http://www.w3.org/2000/svg"><path
@@ -90,8 +90,9 @@
                             </a>
                         </div>
                         <div class="header-local__right">
-                            <a href="#tel" class="header-local__link">
-                                РСО-Алания, <br> Нижний Унал
+                            <a href="tel:+79119762535" class="header-local__link">
+                                <p>РСО-Алания,</p>
+                                <p>Нижний Унал</p>
                             </a>
                         </div>
                     </div>
@@ -104,7 +105,7 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item"><a href="index.html" class="heder__link">Главная</a></li>
-                        <li class="header__item"><a href="tours.html" class="heder__link">Этно-Тур</a></li>
+                        <li class="header__item"><a href="tours.html" class="heder__link heder__link-active">Этно-Тур</a></li>
                         <li class="header__item"><a href="active.html" class="heder__link">Актив-Тур</a></li>
                         <li class="header__item"><a href="#" class="heder__link">Тур номер 3</a></li>
                     </ul>
@@ -122,6 +123,9 @@
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="tours.html">Этно-Тур</a></li>
                 <li><a href="active.html">Актив-Тур</a></li>
+                <li><a href="#">Тур номер 3</a></li>
+                <li><a href="#">Тур номер 3</a></li>
+                <li><a href="#">Тур номер 3</a></li>
                 <li><a href="#">Тур номер 3</a></li>
             </ul>
         </div>
@@ -371,7 +375,7 @@
                         <div class="tour__name">
                             <h3>Кармадонское ущелье</h3>
                             <p class="tour-name__descr">Место запоминавшееся катастрофическим сходом
-                                ледника Колка,В результате схода ледника был полностью уничтожен посёлок Верхний
+                                ледника Колка. В результате схода ледника был полностью уничтожен посёлок Верхний
                                 Кармадон, погибло более 100 человек, в том числе и съёмочная группа во главе с Сергеем
                                 Бодровым-младшим</p>
                         </div>
@@ -658,13 +662,13 @@
                 </div>
                 <label class="form-price__wrap">
                     <h4 class="form__title">Цена на человека:</h4>
-                    <input type="text" class="tour__price-value" value="2000" readonly>
+                    <input type="text" name="price" class="tour__price-value" value="2000" readonly>
                 </label>
                 <label>
-                    <input type="text" name="name" placeholder="Ваш имя" required>
+                    <input type="text" name="name" placeholder="Ваш имя"  maxlength="50" required>
                 </label>
                 <label>
-                    <input type="email" name="mail" placeholder="Ваш e-mail" required>
+                    <input type="email" name="mail" placeholder="Ваш e-mail" maxlength="50" required>
                 </label>
                 <label>
                     <input type="tel" name="tel" class="input__tel" placeholder="Ваш телефон" required>
@@ -732,6 +736,7 @@
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/menu-hidden.js"></script>
 <script src="js/form.js"></script>
 </body>
 </html>
