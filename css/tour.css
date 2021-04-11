@@ -3,7 +3,7 @@
 .tour__title {
     font-size: 36px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -52,10 +52,6 @@
     text-align: center;
     transition: color 0.5s ease;
     fill: #ff830a;
-}
-
-.tour-lvl__icon:hover {
-    fill: #ff6300;
 }
 
 
@@ -150,10 +146,6 @@
     margin-bottom: 70px;
 }
 
-.tour-about__title {
-    margin-bottom: 30px;
-}
-
 .tour-about__descr {
     max-width: 1235px;
 }
@@ -170,19 +162,31 @@
 }
 
 .tour__include__item {
-    width: calc((100% / 3) - (22px));
+    width: calc((100% / 2) - (22px));
     height: auto;
     margin: 0 20px 20px 0;
-    padding: 30px;
-    background-size: cover;
     border-radius: 12px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
     color: black;
 }
 
-.tour__include__item:nth-child(3n) {
+.tour__include__item:nth-child(2n) {
     margin-right: 0;
 }
 
+.tour__include-item__img {
+    height: 164px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px 12px 0 0;
+}
+
+.tour__include-item__descr {
+    color: #cc9933;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 30px 40px;
+}
 
 .tour__include__list {
     display: flex;
@@ -258,7 +262,7 @@ form {
     text-align: center;
 }
 
-button, input {
+.tour__price-input, .btn_counter, .price__input, .tour__btn {
     border: 0;
     outline: 0;
     font-size: 16px;
@@ -321,7 +325,7 @@ label {
     -webkit-appearance: none;
 }
 
-input {
+.tour__price-input {
     margin-right: 8px;
     box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
     width: 100%;
@@ -331,7 +335,7 @@ input {
     -webkit-appearance: none;
 }
 
-input:focus {
+.tour__price-input:focus {
     box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
 }
 
@@ -493,6 +497,7 @@ a.unit:active {
     border: none;
     outline: none;
     box-shadow: none;
+    background-color: #EBECF0;
 }
 
 .tour__price-value:focus {
