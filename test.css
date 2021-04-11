@@ -6,10 +6,12 @@
 
 .accordion__item-header {
     position: relative;
+    margin-bottom: 20px;
     max-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: bold;
     display: flex;
+    align-items: center;
     cursor: pointer;
 }
 

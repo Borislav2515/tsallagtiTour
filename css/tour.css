@@ -3,10 +3,12 @@
 .tour__title {
     font-size: 36px;
     text-align: center;
-    margin-bottom: 30px;
     line-height: 32px;
 }
 
+.title-vis {
+    margin-bottom: 30px;
+}
 
 .swiper-wrap {
     max-width: 100%;
@@ -163,11 +165,11 @@
 }
 
 .tour__include__item {
-    width: calc((100% / 2) - (22px));
+    width: calc((100% / 2) - (10px));
     height: auto;
     margin: 0 20px 20px 0;
     border-radius: 12px;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.23);
     color: black;
 }
 
@@ -192,6 +194,7 @@
 .tour__include__list {
     display: flex;
     flex-wrap: wrap;
+    padding: 5px;
 }
 
 .tour__notinclude {
@@ -261,6 +264,12 @@ form {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+segment-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tour__price-input, .btn_counter, .price__input, .tour__btn {
@@ -491,6 +500,7 @@ a.unit:active {
 }
 
 .tour__price-value {
+    background-color: #EBECF0;
     cursor: inherit;
     text-align: center;
     font-size: 22px;
