@@ -847,20 +847,16 @@ li {
         padding: 0 15px;
     }
 
-    .tour {
-        padding-top: 30px;
-    }
-
     .tour__title {
         padding-right: 40px;
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .title-vis {
         padding: 0;
     }
     .tour__name h3 {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .tour__container {
