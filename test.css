@@ -6,7 +6,6 @@
 
 .accordion__item-header {
     position: relative;
-    padding: 0.5rem 3rem 0.5rem 1rem;
     max-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: bold;
@@ -33,7 +32,6 @@
 }
 
 .accordion__item-body-content {
-    padding: 1rem;
     line-height: 1.5rem;
 }
 

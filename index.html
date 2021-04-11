@@ -96,7 +96,7 @@
                             </a>
                         </div>
                         <div class="header-local__right">
-                            <a href="#tel" class="header-local__link">
+                            <a href="#contacts" class="header-local__link">
                                 РСО-Алания, <br> Нижний Унал
                             </a>
                         </div>
@@ -214,7 +214,7 @@
         </div>
     </section>
     <section class="contacts" id="contacts">
-        <div class="contacts__container">
+        <div class="contacts__container container">
             <div class="contacts__left">
                 <div class="contacts__left-wrap">
                     <div class="contacts__left-content">
@@ -225,7 +225,7 @@
                             <div class="contacts-form__block">
                                 <label for="contacts-form__name" class="contscts__label">Ваше имя</label>
                                 <input type="text" name="name" class="contacts-form__name contacts__input"
-                                       id="contacts-form__name">
+                                       id="contacts-form__name" required>
                             </div>
                             <div class="contacts-form__block">
                                 <label for="contacts-form__last-name" class="contscts__label">Ваша Фамилия</label>
@@ -235,12 +235,12 @@
                             <div class="contacts-form__block">
                                 <label for="contacts-form__email" class="contscts__label">Ваш E-mail</label>
                                 <input type="email" class="contacts-form__email contacts__input"
-                                       id="contacts-form__email">
+                                       id="contacts-form__email" required>
                             </div>
                             <div class="contacts-form__block">
                                 <label for="contacts-form__number" class="contscts__label">Ваш Телефон</label>
                                 <input type="tel" class="contacts-form__number contacts__input"
-                                       id="contacts-form__number">
+                                       id="contacts-form__number" required>
                             </div>
                             <div class="contacts-label__block ">
                                 <label for="contacts-message" class="contscts__label">Ваше Сообщение</label>
@@ -254,9 +254,8 @@
                     </div>
                 </div>
             </div>
-            <div class="contacts__right">
-                <iframe src="https://www.google.com/maps/embed?pb=!4v1617828083755!6m8!1m7!1sCAoSLEFGMVFpcE9icUhJd0g3ZVdoQ0pzY19BYVU1b1FwenI2QjVjNEJ3aTl6VkdP!2m2!1d42.8691989!2d44.1520981!3f140!4f10!5f0.7820865974627469"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="contacts__right" id="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11698.801496681723!2d44.14092934200892!3d42.85805944590716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405aebdcbb65d2eb%3A0x51a809025e875106!2z0J3QuNC2LiDQo9C90LDQuywg0KDQtdGB0L8uINCh0LXQstC10YDQvdCw0Y8g0J7RgdC10YLQuNGPLdCQ0LvQsNC90LjRjywg0KDQvtGB0YHQuNGPLCAzNjMyMTQ!5e0!3m2!1sru!2str!4v1618099544535!5m2!1sru!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
