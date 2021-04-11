@@ -43,6 +43,7 @@ var swiper = new Swiper('.tour-swiper', {
     mousewheel: true,
     keyboard: {
         enabled: true,
+        onlyInVieport: true
     },
     coverflowEffect: {
         rotate: 50,
@@ -71,6 +72,7 @@ var swiper = new Swiper('.swiper-cube', {
     },
     pagination: {
         el: '.swiper-pagination',
+        dynamicBullets: true,
     },
     navigation: {
         nextEl: '.swiper-button-next',
@@ -78,19 +80,37 @@ var swiper = new Swiper('.swiper-cube', {
     },
 });
 
-// //Плавная прокрутка
-// const anchors = document.querySelectorAll('a[href*="#"]');
-// for (let anchor of anchors) {
-//     anchor.addEventListener('click', function (e) {
-//         e.preventDefault();
-//
-//         const blockID = anchor.getAttribute('href').substr(1);
-//
-//         document.getElementById(blockID).scrollIntoView({
-//             behavior: 'smooth',
-//             block: 'start'
-//         })
-//     })
-// }
-// //------
+//Плавная прокрутка
+const anchors = document.querySelectorAll('a[href*="#"]');
+for (let anchor of anchors) {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const blockID = anchor.getAttribute('href').substr(1);
+
+        document.getElementById(blockID).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
+    })
+}
+
+//accordion test
+
+// const accordionTrigger = document.querySelectorAll(".accordion-trigger");
+// let accordioCcontent = document.querySelector('.accordion-content');
+// accordionTrigger.forEach((triggerClick) => {
+//     triggerClick.addEventListener('click', () => {
+//         const parent = triggerClick.parentNode;
+//         console.log(parent);
+//         if (parent.classList.contains('accordion-active')) {
+//             parent.classList.remove('accordion-active');
+//             parent.style.maxHeight = 0;
+//         } else {
+//             parent.classList.add('accordion-active');
+//             parent.style.maxHeight = accordioCcontent.scrollHeight + 'px';
+//         }
+//     });
+// });
+
 
