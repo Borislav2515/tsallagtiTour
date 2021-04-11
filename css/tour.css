@@ -498,7 +498,6 @@ a.unit:active {
     border: none;
     outline: none;
     box-shadow: none;
-    background-color: #EBECF0;
 }
 
 .tour__price-value:focus {
