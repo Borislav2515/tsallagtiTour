@@ -1,8 +1,7 @@
 /*Общие*/
 
 .tour__title {
-    font-size: 36px;
-    text-align: center;
+    font-size: 28px;
     line-height: 32px;
 }
 
@@ -18,22 +17,6 @@
     position: relative;
     z-index: 5;
 }
-
-/*облока паралакс*/
-/*.tour::before {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    top: -170px;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 226px;*/
-/*    pointer-events: none;*/
-/*    z-index: -1;*/
-/*    background-image: url("../img/obloka.png");*/
-/*    background-repeat: repeat-x;*/
-/*    background-size: cover;*/
-/*}*/
-
 
 .tour__container {
     width: 1330px;
@@ -56,29 +39,6 @@
     transition: color 0.5s ease;
     fill: #ff830a;
 }
-
-
-/* Добавляем свойство, чтобы при наведении на элемент плашка с подсказкой появилась добавить  data-title="такую подсказку можно оформить"*/
-/*.tour-lvl__icon:hover:after {*/
-/*    display: block;*/
-/*}*/
-/*.tour-lvl__icon:after {*/
-/*    content: attr(data-title);*/
-/*    display: none;*/
-/*    position: absolute;*/
-/*    bottom: 130%;*/
-/*    left: 0px;*/
-/*    background-color: #fff;*/
-/*    color: #3aaeda;*/
-/*    padding: 5px;*/
-/*    text-align: center;*/
-/*    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .16);*/
-/*    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .16);*/
-/*    box-shadow: 0 1px 1px rgba(0, 0, 0, .16);*/
-/*    font-size: 12px;*/
-/*}*/
-
-
 
 .tour-lvl__svg {
     height: 40px;
@@ -114,7 +74,7 @@
 
 .tour__item h3 {
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 /*Слайдер тур*/
@@ -145,10 +105,6 @@
 
 /*tour__about*/
 
-.tour-about {
-    margin-bottom: 70px;
-}
-
 .tour-about__descr {
     max-width: 1235px;
 }
@@ -160,8 +116,13 @@
 }
 
 /*-----------*/
-.tour__include {
-    margin-bottom: 70px;
+
+.tour__notinclude {
+    margin-bottom: 60px;
+}
+
+.tour__notinclude .accordion__item {
+    border-bottom: 1px solid grey;
 }
 
 .tour__include__item {
@@ -197,13 +158,6 @@
     padding: 5px;
 }
 
-.tour__notinclude {
-    margin-bottom: 70px;
-}
-
-.tour-program {
-    margin-bottom: 70px;
-}
 
 .tour-program__list {
     padding: 30px 0 30px 60px;
@@ -266,7 +220,7 @@ form {
     text-align: center;
 }
 
-segment-title {
+.segment-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -513,12 +467,5 @@ a.unit:active {
 .tour__price-value:focus {
     box-shadow: none;
 }
-
-
-
-
-
-
-/*-------------*/
 
 
