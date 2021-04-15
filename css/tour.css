@@ -121,10 +121,6 @@
     margin-bottom: 60px;
 }
 
-.tour__notinclude .accordion__item {
-    border-bottom: 1px solid grey;
-}
-
 .tour__include__item {
     width: calc((100% / 2) - (10px));
     height: auto;
