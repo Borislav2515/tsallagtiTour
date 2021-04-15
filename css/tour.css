@@ -24,7 +24,7 @@
 
 .tour-lvl {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -609,6 +609,8 @@ a.unit:active {
 .tour-lvl__container {
     display: flex;
     justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
     background-color: white;
     padding: 10px 20px 0 20px;
     border-radius: 12px 12px 0 0;
