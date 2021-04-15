@@ -554,7 +554,7 @@ li {
 
 .hero {
     position: relative;
-    height: calc(100vh - 161px)
+    min-height: calc(100vh - 161px)
 }
 
 .hero__slider {
@@ -978,7 +978,7 @@ li {
     }
 
     .hero {
-        height: calc(100vh - 180px);
+        min-height: calc(100vh - 180px);
     }
 
     .swiper-container__title, .swiper-container__text {
