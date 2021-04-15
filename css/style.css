@@ -555,7 +555,7 @@ li {
 .hero {
     position: relative;
     height: calc(100vh - 161px);
-    min-height: calc(100vh - 161px)
+    margin-bottom: 70px;
 }
 
 .hero__slider {
@@ -606,6 +606,12 @@ li {
     margin-bottom: 30px;
 }
 
+.swiper-slide__img {
+    height: calc(100vh - 161px);
+    min-width: 100%;
+    object-fit: cover;
+}
+
 .swuper__btn {
     padding: 15px 50px;
     margin-top: 40px;
@@ -619,20 +625,18 @@ li {
 
 .best-tour {
     position: relative;
-    z-index: 1;
-    padding: 120px 0;
-    background-color: white;
+    margin-bottom: 50px;
 }
 
 .best-tour::before {
     content: '';
     position: absolute;
-    top: -170px;
+    top: -245px;
     left: 0;
     width: 100%;
-    height: 226px;
+    height: 241px;
     pointer-events: none;
-    z-index: -1;
+    z-index: 1;
     background-image: url("../img/obloka.png");
     background-repeat: repeat-x;
     background-size: cover;
@@ -1049,12 +1053,12 @@ li {
     }
 
     .tour__name h3 {
+        margin-bottom: 15px;
         font-size: 20px;
     }
 
     .tour__container {
         width: 100%;
-        padding: 0 10px;
         margin: 0;
     }
 
@@ -1209,13 +1213,6 @@ li {
 
 }
 
-@media (max-width: 1350px) {
-    .tour__container {
-        width: 100%;
-        padding: 30px 10px;
-    }
-
-}
 
 @media (max-width: 1200px) {
     .container {
