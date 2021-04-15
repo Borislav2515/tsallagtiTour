@@ -554,6 +554,7 @@ li {
 
 .hero {
     position: relative;
+    height: calc(100vh - 161px);
     min-height: calc(100vh - 161px)
 }
 
@@ -978,6 +979,7 @@ li {
     }
 
     .hero {
+        height: calc(100vh - 180px);
         min-height: calc(100vh - 180px);
     }
 
